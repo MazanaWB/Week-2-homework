@@ -7,10 +7,17 @@ Using CSS and Bootstrap create a responsive web design that renders well on a va
 * Practice CSS and Bootstrap
 
 ### Process
-Build Structure:
-    * Create basic colum/row structure for each page
-    * Add basic components to each page
-    * Commit after each page
+1)  Build Structure:
+        * Create basic colum/row structure for each page
+        * Add basic components to index page
+
+2)  Copy finalized nav and footer to portfolio and contact pages
+
+3)  Customize content cards for each page
+
+4) Adjust for breakpoints
+
+
 
 ### Known Issues
 
