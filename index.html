@@ -7,69 +7,69 @@
     <title>Mazana Bruggeman</title>
 
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
     
     <style>
         @import url('https://fonts.googleapis.com/css?family=PT+Serif:700|Roboto&display=swap');
-        </style>
+    </style>
 
 </head>
 
-<body>
-    <!-- <div class="container">
-    
-       <div class="row"> --> 
-        <!-- Navigation div. Everything placed in here gets styled by the CSS rules of the element's class. -->
+<body id="hero">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-inverse p-3">
+            <div class="navbar-header">
                 <a class="navbar-brand" href="#">Mazana Bruggeman</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                             <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+        
+            <div id="navbarNav">
+                <ul class="nav list-inline">
+                    <li class="nav-item active">
+                        <a class="nav-link py-2" href="#">About <span class="sr-only">(current)</span></a>
+                    </li>
 
-        <!-- </div> -->
-    <div class="container">  
+                    <li class="px-2 py-2"> | </li>
 
+                    <li class="nav-item">
+                        <a class="nav-link py-2" href="#">Portfolio</a>
+                    </li>
+
+                    <li class="px-2 py-2"> | </li>
+
+                    <li class="nav-item">
+                         <a class="nav-link py-2" href="#">Contact</a>
+                    </li>
+                 </ul>               
+            </div>
+    </nav>
+
+    <!-- </div> -->
+    <main class="container m-5">  
         <div class="row">
-            <main>
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 25rem;">
                    <img src="assets/images/Me_Portrait_3.jpg" class="card-img-top" alt="Mazana Bruggeman">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title">About Me</h5>
+                 <p class="card-text">
+                    <strong>Hi, I'm Mazana.</strong>
+                    <br>
+                    I believe great design inspires, challenges, educates and most importantly 
+                    it moves people to act. Working across multiple disciplines (digital, print, 
+                    branding and editorial), I collaborate with clients, creative colleagues 
+                    and vendors to develop thoughtful design solutions backed by solid strategy 
+                    to effectively communicate with target audiences and build compassionate relationships.</p>
                 </div>
                 </div>
-            </main>
         </div>
+    </main>
 
-        <div class="row">
-            <footer>
-                <nav class="navbar fixed-bottom navbar-light bg-light">
-                    <a class="navbar-brand">Copyright</a>
-                  </nav>
-
-            </footer>
+    <footer class="row footer fixed-bottom py-4">
+        <div class="container text-center id=Copyright">
+            <p>&copy; Copyright 2020</p>
         </div>
-
-    </div>
+    </footer>
 
 </body>
 
