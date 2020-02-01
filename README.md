@@ -13,12 +13,16 @@ Using CSS and Bootstrap create a responsive web design that renders well on a va
 
 2)  Copy finalized nav and footer to portfolio and contact pages
 
-3)  Customize content cards for each page
+3)  Customize unique content for each page
 
 4) Adjust for breakpoints
 
 
 
 ### Known Issues
+nav links do not function - RESOLVED
+no indication of current page in nav bar
+nav break does not work for small screen
+tried bootstrap card component but did not work..rebuilding...
 
 
