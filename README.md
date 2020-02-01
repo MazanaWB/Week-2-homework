@@ -8,8 +8,8 @@ Using CSS and Bootstrap create a responsive web design that renders well on a va
 
 ### Process
 1)  Build Structure:
-        *   Create basic colum/row structure for each page
-        *   Add basic components to index page
+    *   Create basic colum/row structure for each page
+    *   Add basic components to index page
 
 2)  Copy finalized nav and footer to portfolio and contact pages
 
@@ -20,9 +20,17 @@ Using CSS and Bootstrap create a responsive web design that renders well on a va
 
 
 ### Known Issues
-*   nav links do not function - RESOLVED
-*   no indication of current page in nav bar
-*   nav break does not work for small screen
-*   tried bootstrap card component but did not work..rebuilding...
+*   Nav links do not function - RESOLVED
+*   No style to indicate current page in nav bar
+*   Nav and main content breaks do not work for small screen sizes
+*   No line between title and content 
+*   Message imput area in contact form is too small
+*   Portfolio content incomplete
+
+### Progress notes
+*   Tried using the Bootstrap card component for main page content but having to force it to work.
+*   I think I need to go back to the basic structure and rebuild the grid. I added Bootstrap components too quickly and got caught up in wrestling with modifying those before making sure my basic page structure was working.
+
+
 
 
