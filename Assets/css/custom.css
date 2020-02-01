@@ -38,14 +38,14 @@
  /* Main Content */ 
 
  .portrait {
-    padding-right: 1rem;;
-    border-width: 1px;
-    border-color: #666666;
+    margin-right: 1rem;;
+    border: solid 1px #cccccc;
  }
 
  .frame {
     width: 75%; 
     background-color: #ffffff;
+    border: solid 1px #cccccc;
  }
 
  .title-row {
@@ -59,7 +59,6 @@
     padding-bottom: 20px;
     color: #3cd9b6;
     font-size: 28px;
-    border-bottom: #666666;
  }
 
  .row {
@@ -71,7 +70,6 @@
      background-color: #3cd9b6;
      border-color: #3cd9b6;
      border-radius: 0px;
-
  }
 
 /* Footer */ 
