@@ -1,36 +1,23 @@
-# Week-2-homework
-Using CSS and Bootstrap create a responsive web design that renders well on a variety of devices and screen sizes. 
+# Week-3-homework
+
+Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 ## Goals
 *   Functional, depolyed application
 *   Build a habit of frequent commits to Github with meaningful commit messages
-*   Practice CSS and Bootstrap
+*   Practice Javascript
 
 ### Process
-1)  Build Structure:
-    *   Create basic colum/row structure for each page
-    *   Add basic components to index page
+1)  Pseudocode 
 
-2)  Copy finalized nav and footer to portfolio and contact pages
-
-3)  Customize unique content for each page
-
-4) Adjust for breakpoints
-
+2)  Define variables
 
 
 ### Known Issues
-*   Nav links do not function - RESOLVED
-*   No style to indicate current page in nav bar
-*   Nav and main content breaks do not work for small screen sizes
-*   No line between title and content 
-*   Message imput area in contact form is too small
-*   Portfolio content incomplete
+*  
 
 ### Progress notes
-*   Tried using the Bootstrap card component for main page content but having to force it to work.
-*   I think I need to go back to the basic structure and rebuild the grid. I added Bootstrap components too quickly and got caught up in wrestling with modifying those before making sure my basic page structure was working.
-
+*   
 
 
 
